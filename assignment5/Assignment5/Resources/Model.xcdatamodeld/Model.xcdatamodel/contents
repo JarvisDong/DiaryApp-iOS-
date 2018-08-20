@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName=".Category" syncable="YES" codeGenerationType="category">
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Image" inverseName="category" inverseEntity="Image" syncable="YES"/>
+        <fetchIndex name="byTitleIndex">
+            <fetchIndexElement property="title" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Image" representedClassName=".Image" syncable="YES" codeGenerationType="category">
+        <attribute name="imagename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="images" inverseEntity="Category" syncable="YES"/>
+        <fetchIndex name="byValueIndex">
+            <fetchIndexElement property="value" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <elements>
+        <element name="Category" positionX="-245" positionY="24" width="110" height="73"/>
+        <element name="Image" positionX="-2" positionY="9" width="128" height="88"/>
+    </elements>
+</model>

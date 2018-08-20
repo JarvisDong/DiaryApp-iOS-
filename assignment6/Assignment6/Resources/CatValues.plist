@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Burmese</string>
+		<key>ImageNames</key>
+		<array>
+			<string>burmese1</string>
+			<string>burmese2</string>
+			<string>burmese3</string>
+		</array>
+	</dict>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Savannah</string>
+		<key>ImageNames</key>
+		<array>
+			<string>savannah1</string>
+			<string>savannah2</string>
+			<string>savannah3</string>
+			<string>savannah4</string>
+			<string>savannah5</string>
+		</array>
+	</dict>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Ragdoll</string>
+		<key>ImageNames</key>
+		<array>
+			<string>ragdoll1</string>
+			<string>ragdoll2</string>
+			<string>ragdoll3</string>
+			<string>ragdoll4</string>
+		</array>
+	</dict>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Himalayan</string>
+		<key>ImageNames</key>
+		<array>
+			<string>himalayan1</string>
+		</array>
+	</dict>
+	<dict>
+		<key>CategoryTitle</key>
+		<string>Scottish Fold</string>
+		<key>ImageNames</key>
+		<array>
+			<string>scottishFold1</string>
+			<string>scottishFold2</string>
+		</array>
+	</dict>
+</array>
+</plist>

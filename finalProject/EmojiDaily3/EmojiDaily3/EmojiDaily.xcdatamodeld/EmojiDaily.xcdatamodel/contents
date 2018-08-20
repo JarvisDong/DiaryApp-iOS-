@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Chapter" representedClassName=".Chapter" syncable="YES" codeGenerationType="category">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="journal" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Journal" inverseName="chapter" inverseEntity="Journal" syncable="YES"/>
+    </entity>
+    <entity name="Journal" representedClassName=".Journal" syncable="YES" codeGenerationType="category">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chapter" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Chapter" inverseName="journal" inverseEntity="Chapter" syncable="YES"/>
+        <relationship name="tag" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="journal" inverseEntity="Tag" syncable="YES"/>
+    </entity>
+    <entity name="Tag" representedClassName=".Tag" syncable="YES" codeGenerationType="category">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tagname" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="journal" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="tag" inverseEntity="Journal" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Chapter" positionX="-29" positionY="-99" width="128" height="105"/>
+        <element name="Journal" positionX="-324" positionY="-135" width="128" height="120"/>
+        <element name="Tag" positionX="-110" positionY="108" width="128" height="90"/>
+    </elements>
+</model>

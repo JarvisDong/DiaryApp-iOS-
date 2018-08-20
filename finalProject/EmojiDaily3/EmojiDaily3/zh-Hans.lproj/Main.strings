@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "4nf-dg-60W"; */
+"4nf-dg-60W.normalTitle" = "取消";
+
+/* Class = "UINavigationItem"; title = "My Chapters"; ObjectID = "8g8-na-bcx"; */
+"8g8-na-bcx.title" = "我的日记本";
+
+/* Class = "UIButton"; normalTitle = "Tag"; ObjectID = "WsM-Ej-mv5"; */
+"WsM-Ej-mv5.normalTitle" = "标签";
+
+/* Class = "UITextField"; text = "New Journal"; ObjectID = "XCo-Uo-03P"; */
+"XCo-Uo-03P.text" = "新日记";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "YJv-gQ-D0l"; */
+"YJv-gQ-D0l.normalTitle" = "确定";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "atL-Jc-NyT"; */
+"atL-Jc-NyT.text" = "Subtitle";
+
+/* Class = "UIViewController"; title = "Chapter"; ObjectID = "pej-M8-g4V"; */
+"pej-M8-g4V.title" = "日记本";
+
+/* Class = "UINavigationItem"; title = "Enter Chapter Title"; ObjectID = "up2-AA-m2v"; */
+"up2-AA-m2v.title" = "日记本标题";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "yRy-4O-dQc"; */
+"yRy-4O-dQc.text" = "Title";
